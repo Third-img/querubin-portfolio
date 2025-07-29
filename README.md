@@ -1,5 +1,11 @@
 # React + Vite
 
+Go to vite.config.js to add the base.
+Then, download github pages package
+Then, in the package.json, you add the homepage and scripts predeploy and deploy.
+Then, just command the npm run deploy and you're all set up, follow the link in the homepage and you're all set
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

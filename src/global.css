@@ -314,9 +314,6 @@
   .text-paragraph {
     font-size: 0.7rem;
   }
-  .about-section {
-    height: 80vh;
-  }
 }
 @media (max-width: 410px) {
   .coffee-inspirations {
