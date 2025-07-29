@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "Bespoke-Serif";
+  src: url(../fonts/BespokeSerif-Medium.otf);
+}
+:root {
+  --dirty-white: #ecead3;
+  --dirtier-white: #b9b7a2;
+}
+.about-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 10px 80px 10px;
+}
+.center-container {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: top;
+  color: var(--dirty-white);
+  font-family: "Bespoke-Serif";
+  font-size: 1.5rem;
+}
+.resume-image {
+  height: 650px;
+  border-radius: 10px;
+}
+.resume-image img {
+  height: 100%;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.16));
+  cursor: pointer;
+  overflow: hidden;
+}
+.text-paragraph .word {
+  display: flex;
+  text-align: center;
+}
+.qr-modal {
+  position: absolute;
+  bottom: 10%;
+  right: 30px;
+  color: var(--dirtier-white);
+  cursor: pointer;
+}
+.shape-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+  padding: 5px;
+  background-color: var(--dirty-white);
+  border-radius: 15px;
+}
+.modal-icons {
+  font-size: 3rem;
+  user-select: none;
+}
+.kiss-mark {
+  position: absolute;
+  width: 125px;
+  user-select: none;
+}
+.mark-one {
+  left: 30%;
+  top: 33%;
+  rotate: 13deg;
+}
+.mark-two {
+  top: 7%;
+  left: 0;
+  rotate: -13deg;
+}
+.verify-me {
+  font-family: "Bebas-Neue";
+  font-size: 1.5rem;
+}
+.coffee-inspirations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 110px;
+}
+/* this is the parent so this is where you add the gap/margin */
+.inspirations-wrapper {
+  display: flex;
+  margin-top: 15px;
+  gap: 2rem;
+}
+/* fixed a and image with percent to px*/
+.inspo-thumbnails {
+  display: block;
+  max-width: 90px;
+  margin: 0;
+  height: auto;
+  border-radius: 5%;
+  filter: grayscale(100%);
+  user-select: none;
+  opacity: 20%;
+}
