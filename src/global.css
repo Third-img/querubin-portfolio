@@ -3,8 +3,25 @@
   .mark-two {
     display: none;
   }
+  .about-section {
+    height: fit-content;
+  }
+  .inspirations-wrapper {
+    margin-bottom: 35%;
+  }
 }
-@media (max-width: 1440px) {
+@media (max-height: 670px) {
+  .footer-section {
+    height: fit-content;
+  }
+  .socials-section {
+    margin-bottom: 10%;
+  }
+}
+@media (max-width: 1550px) {
+  .qr-modal {
+    bottom: 0;
+  }
   .headers {
     font-size: 5rem;
   }
@@ -102,9 +119,7 @@
     display: none;
     bottom: auto;
   }
-  .qr-modal {
-    bottom: 5%;
-  }
+
   .shape-modal {
     width: fit-content;
   }
@@ -147,9 +162,6 @@
     display: none;
     bottom: auto;
   }
-  .qr-modal {
-    bottom: 5%;
-  }
   .shape-modal {
     width: fit-content;
   }
@@ -163,10 +175,6 @@
 @media (max-width: 790px) {
   .headers {
     font-size: 4rem;
-  }
-  .about-section {
-    align-items: start;
-    margin-top: 40px;
   }
   .resume-image {
     height: 350px;
@@ -192,9 +200,6 @@
   .mark-two {
     display: none;
     bottom: auto;
-  }
-  .qr-modal {
-    bottom: 5%;
   }
   .shape-modal {
     width: fit-content;
@@ -234,10 +239,6 @@
   .mark-two {
     display: none;
     bottom: auto;
-  }
-  .qr-modal {
-    bottom: 5%;
-    right: 0%;
   }
   .shape-modal {
     width: fit-content;
@@ -282,10 +283,7 @@
     display: none;
     bottom: auto;
   }
-  .qr-modal {
-    bottom: 2%;
-    right: 0%;
-  }
+
   .shape-modal {
     width: fit-content;
     border-radius: 5px;
@@ -334,10 +332,6 @@
     display: none;
     bottom: auto;
   }
-  .qr-modal {
-    bottom: 2%;
-    right: 0%;
-  }
   .shape-modal {
     width: fit-content;
     border-radius: 5px;
@@ -376,14 +370,17 @@
   .current-clock {
     display: none;
   }
-  .inspirations-wrapper{
+  .inspirations-wrapper {
     flex-wrap: wrap;
   }
-  .about-section{
+  .about-section {
     margin: 10px 50px 10px;
   }
-  .center-container{
+  .center-container {
     width: 100%;
+  }
+  hr{
+    display: none;
   }
 }
 /* if you're making mobile-first then use min-width, start max size at the bottom */
