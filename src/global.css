@@ -6,9 +6,6 @@
   .about-section {
     height: fit-content;
   }
-  .inspirations-wrapper {
-    margin-bottom: 35%;
-  }
 }
 @media (max-height: 670px) {
   .footer-section {

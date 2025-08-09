@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 //#region Images
-import resume_image from "../assets/Resume.png";
+import resume_image from "../assets/Resume2.png";
 import kiss_mark from "../assets/Dark_Cherry_1.png";
 import kiss_mark2 from "../assets/Dark_Cherry_2.png";
 import james_hoffmann from "../assets/thumbnails/James_Hoffmann.jpg";
@@ -20,7 +20,6 @@ import { motion } from "motion/react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { SplitText } from "gsap/SplitText";
-import { useGSAP } from "@gsap/react";
 gsap.registerPlugin(ScrollTrigger, SplitText);
 //#endregion
 

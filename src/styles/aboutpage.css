@@ -11,8 +11,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin: 10px 80px 10px;
+  height: fit-content;
+  margin: 10px 80px 20%;
 }
 .center-container {
   display: flex;
@@ -40,7 +40,7 @@
 }
 .qr-modal {
   position: absolute;
-  bottom: 10%;
+  bottom: 5%;
   right: 30px;
   color: var(--dirtier-white);
   cursor: pointer;
@@ -83,6 +83,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 110px;
+  margin-bottom: 25%;
 }
 /* this is the parent so this is where you add the gap/margin */
 .inspirations-wrapper {
