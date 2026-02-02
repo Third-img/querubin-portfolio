@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 //#region Images
-import resume_image from "../assets/Resume2.png";
 import kiss_mark from "../assets/Dark_Cherry_1.png";
 import kiss_mark2 from "../assets/Dark_Cherry_2.png";
 import james_hoffmann from "../assets/thumbnails/James_Hoffmann.jpg";
@@ -98,43 +97,17 @@ export default function About() {
   return (
     <div className="about-section" id="about">
       <div className="center-container">
-        <div className="resume-image">
-          <motion.img
-            src={resume_image}
-            alt="resume-img"
-            whileHover={{
-              scale: 1.07,
-              rotate: "-5deg",
-            }}
-            whileTap={{
-              scale: 1,
-              rotate: "1deg",
-            }}
-            onClick={() => setOpen(true)}
-          />
-        </div>
-        <Lightbox
-          open={open}
-          close={() => setOpen(false)}
-          slides={[
-            {
-              src: resume_image,
-              alt: "resume_image",
-            },
-          ]}
-        />
         <div className="resume-text">
           <p ref={paragraphText} className="text-paragraph">
-            Hello, my name is Querubin Pascual! I’m a hard-working student,
-            pursuing a Bachelor’s Degree in Information Technology at STI
-            College Malolos. Driven by passion and love for creativity, I aspire
-            to be a Barista, because of the many things you could learn about
-            it; there's latte art, the origin of the coffee beans, brewing
-            methods, and other challenging yet fun activities that I may come
-            across while learning. I would love to delve in this art all while
-            creating as much passion projects for experience, joy, and my
-            greater future. I can’t wait to be a part of the team and make a
-            positive impact. Special mentions to these channels that I have
+            Hello, my name is Querubin Pascual! 
+            A very hard-working student pursuing a Bachelor's Degree in 
+            Information Technology at STI College Malolos. 
+            Driven by passion, eagerness and love for creating and designing, 
+            it led me to trying new experiences such as being a Barista, 
+            Graphic Designer, and pushed myself further with Programming. 
+            As of the moment, I'll be continuing my passion for coffee 
+            and its art, all while creating projects for experience, joy, 
+            and greater future. C, special mentions to these channels where I 
             learnt coffee most from.
           </p>
           <div className="coffee-inspirations">

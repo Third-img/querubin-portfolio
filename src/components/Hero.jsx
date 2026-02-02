@@ -5,7 +5,7 @@ import { SplitText } from "gsap/SplitText";
 gsap.registerPlugin(SplitText);
 
 export default function Hero() {
-  const texts = ["An Aspiring Barista", "Frontend Dev", "Graphic Designer"];
+  const texts = ["A Barista", "Software Developer", "Graphic Designer"];
   const [index, setIndex] = useState(0);
   const textRef = useRef();
 
